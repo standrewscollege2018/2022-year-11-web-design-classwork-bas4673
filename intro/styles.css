@@ -1,13 +1,14 @@
-* {
-  margin: 0px;
-  padding: 0px;
+a:link.box, a:visited.box {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
-body {
-  padding: 30px;
-  background-color: rgb(161, 146, 132);
-  font-family: Brush Script MT, Arial, cursive;
-}
-h1 {
-  color: rgb(255, 255, 0);
-  font-family: Geneva;
+
+a:hover.box, a:active.box {
+  background-color: green;
+  color: white;
 }

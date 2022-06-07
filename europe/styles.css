@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto 0 auto;
+  background-color: rgb(26,38,52);
+  padding: 30px;
+  border-radius: 8px;
+}
+body {
+  padding: 30px;
+  background-color: rgb(32,62,95);
+  font-family: Geneva, Arial, cursive;
+}
+h1 {
+  color: rgb(255,204,0);
+  font-family: Geneva;
+  font-size: 45px;
+}
+
+h2 {
+  color: rgb(255,204,0);
+  font-family: Geneva;
+  padding: 30px;
+  font-size: 35px;
+}
+p {
+  color: rgb(254,229,177);
+  margin-top: 10px;
+  width: 1000px;
+}
+ul {
+  color: rgb(254,229,177);
+  padding-left: 30px;
+}
+ol {
+  color: rgb(254,229,177);
+  padding-left: 30px;
+}
+a {
+  padding: 30px;
+  padding-right: : 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(234,234,234);
+  font-size: 30px;
+  text-decoration: underline;
+  padding-right: : 20px;
+
+}
+img {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  width: 750px;
+}
+a:link.box, a:visited.box {
+  font-size: 20px;
+  background-color: rgb(26,38,52);
+  color: rgb(254,229,177);
+  border: 2px solid rgb(255,204,0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover.box, a:active.box {
+  font-size: 20px;
+  background-color: rgb(255,204,0);
+  color: white;
+}
